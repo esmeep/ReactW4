@@ -1,0 +1,60 @@
+.weather-app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #87cefa, #f0f8ff);
+  min-height: 100vh;
+}
+
+.search-box {
+  margin-bottom: 2rem;
+}
+
+.search-box input {
+  padding: 0.5rem;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.weather-info {
+  background-color: white;
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.temperature {
+  font-size: 48px;
+  margin: 0.5rem 0;
+}
+
+.description {
+  font-style: italic;
+  color: #555;
+}
+footer {
+  padding: 1rem;
+  color: #555;
+}
+
+footer a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
